@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__blockOne {
+    padding: 170px 0 250px 240px;
+}
+
+.blockOne__text h1 {
+    font-size: 68px;
+}
+
+.main__blockTwo img {
+}
