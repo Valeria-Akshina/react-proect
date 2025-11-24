@@ -1,9 +1,9 @@
 .layout {
-  max-width: 1840px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 0 20px;
   min-height: 100vh;
   flex-direction: column;
 
-  background: #BFC9E0;
+  background: #e9ebf0;
 }

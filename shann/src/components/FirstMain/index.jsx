@@ -7,9 +7,9 @@ export const FirstMain = () => {
         <main className={style.main}>
             <div className={style.main__blockOne}>
                 <div className={style.blockOne__text}>
-                    <h1>электромобильный <br />
+                    <span>электромобильный <br />
                     вилочный погрузчик <br /> 
-                    <h1>нового поколения SHANN</h1></h1>
+                    <span className={style.span__blue}>нового поколения SHANN</span></span>
                     <p>Оставьте заявку и получите 
                     консультацию специалиста</p>
                 </div>
@@ -19,7 +19,7 @@ export const FirstMain = () => {
                     </button>
                     <button className={style.blockOne__btn__transparent}>
                         <img src={phone} alt="#" />
-                        Перезвоним в течении дня для консультации
+                        <span>Перезвоним в течении дня для консультации</span>
                     </button>
                 </div>
             </div>
