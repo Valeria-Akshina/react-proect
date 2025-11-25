@@ -1,0 +1,46 @@
+.section {
+  display: block;
+  width: 1840px;
+  height: 910px;
+
+  border-radius: 30px;
+  background: #009BFF;
+
+  margin-top: 20px;
+}
+
+.section__flex {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 194px;
+}
+
+.section__list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+  padding-top: 248px;
+}
+
+.section__list span {
+  font-weight: 700;
+  font-size: 68px;
+
+  color: #FFFFFF;
+}
+
+.section__list p {
+  font-weight: 700;
+  font-size: 68px;
+
+  color: #FFFFFFCC;
+}
+
+.section__flex img {
+  padding-top: 192px;
+}

@@ -16,11 +16,7 @@
 
 .main__blockTwo {
     position: absolute;
-}
-
-.main__blockTwo img {
-    position: relative;
-    left: 880px;
+    left: 1180px;
     top: 120px;
 }
 
@@ -51,7 +47,7 @@
     border: none;
     border-radius: 5px;
 
-    cursor: pointer !important;
+    cursor: pointer;
 }
 
 .blockOne__btn__blue:active {

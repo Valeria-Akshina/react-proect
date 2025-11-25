@@ -23,9 +23,7 @@ export const FirstMain = () => {
                     </button>
                 </div>
             </div>
-            <div className={style.main__blockTwo}>
-                <img src={car} alt="#" />
-            </div>
+                <img className={style.main__blockTwo} src={car} alt="#" />
         </main>
     )
 }
