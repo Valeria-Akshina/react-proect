@@ -25,16 +25,17 @@
 
   gap: 40px;
   padding-top: 248px;
+  margin-left: 200px;
 }
 
-.section__list span {
+.list__p__wnite {
   font-weight: 700;
   font-size: 68px;
 
   color: #FFFFFF;
 }
 
-.section__list p {
+.list__p__whitTran {
   font-weight: 700;
   font-size: 68px;
 
@@ -43,4 +44,20 @@
 
 .section__flex img {
   padding-top: 192px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  color: #FFFFFF;
+
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.sectionTwo__list {
+  width: 497px;
+  height: 660px;
 }

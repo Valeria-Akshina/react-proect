@@ -1,0 +1,58 @@
+.sectionTwo {
+    display: block;
+    background: white;
+    border-radius: 20px;
+
+    width: 1840px;
+    height: 910px;
+
+    margin-top: 20px;
+}
+
+.sectionTwo__block__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 171px;
+}
+
+.sectionTwo__img {
+    padding-top: 188px;
+
+    width: 500px;
+    height: 690px;
+}
+
+.sectionTwo__list {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 138px;
+}
+
+.section__list__p {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 68px;
+}
+
+.list__p__blue {
+    color: #009BFF;
+}
+
+.list {
+    font-weight: 400;
+    font-size: 24px;
+
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.list li::marker {
+    color: #009BFF;
+}

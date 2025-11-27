@@ -4,6 +4,8 @@ import { Header } from './components/Header';
 import { LayoutGeneral } from './components/LayoutGeneral';
 import { ElectricVehicleTechnology } from './components/ElectricVehicleTechnology'
 import { Engine } from './components/Engine';
+import { Telemetry } from './components/Telemetry';
+import { Catalog } from './components/Catalog';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <FirstMain/>
         <ElectricVehicleTechnology/>
         <Engine/>
+        <Telemetry/>
+        <Catalog/>
       </LayoutGeneral>
     </div>
   );

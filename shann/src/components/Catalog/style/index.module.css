@@ -1,0 +1,36 @@
+.catalog {
+    padding: 140px 0;
+}
+
+.catalog__block {
+    max-width: 1440px;
+
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.catalog__p {
+    display: block;
+
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+
+    margin-bottom: 40px;
+
+    color: #333;
+}
+
+.catalog__p__blue {
+    color: #009BFF;
+
+    margin-left: 10px;
+}
+
+.block__cards {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
