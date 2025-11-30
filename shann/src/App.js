@@ -6,6 +6,7 @@ import { ElectricVehicleTechnology } from './components/ElectricVehicleTechnolog
 import { Engine } from './components/Engine';
 import { Telemetry } from './components/Telemetry';
 import { Catalog } from './components/Catalog';
+import { PhotoGallery } from './components/Photogallery';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Engine/>
         <Telemetry/>
         <Catalog/>
+        <PhotoGallery/>
       </LayoutGeneral>
     </div>
   );
