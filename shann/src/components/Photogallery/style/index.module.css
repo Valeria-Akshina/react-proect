@@ -28,6 +28,8 @@
 
     height: 222px;
     border-radius: 15px;
+
+    background: rgba(255, 255, 255, 0.79);
 }
 
 .sideImage__img {
@@ -96,9 +98,21 @@
 }
 
 .counter {
+    display: flex;
+
     font-size: 20px;
     font-weight: 500;
+
     color: #2B2E3E66;
+
     min-width: 60px;
     text-align: center;
+}
+
+.counter__p__blue {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30px;
+
+    color: #009BFF;
 }

@@ -71,13 +71,13 @@ export const PhotoGallery = () => {
         </div>
         <div className={style.navigation}>
           <button className={style.navButton} onClick={prevImage}>
-            ←
+            &lt;
           </button>
           <span className={style.counter}>
-            {currentIndex + 1}/{images.length}
+            <p className={style.counter__p__blue}>{currentIndex + 1}</p>/<p>{images.length}</p>
           </span>
           <button className={style.navButton} onClick={nextImage}>
-            →
+            &gt;
           </button>
         </div>
       </div>

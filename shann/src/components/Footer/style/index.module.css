@@ -1,0 +1,38 @@
+.footer {
+    margin-top: 40px;
+
+    background: #ffffff;
+    width: 1850px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 240px 0 240px;
+}
+
+.footer__textBlackTrans {
+    font-size: 16px;
+    font-weight: 200;
+
+    color: #2B2E3E;
+}
+
+.footer__link {
+    font-size: 16px;
+
+    color: #009BFF;
+}
+
+.footer__span {
+    display: inline;
+    flex-direction: row;
+}
+
+.footer__item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

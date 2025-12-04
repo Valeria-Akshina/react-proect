@@ -7,6 +7,9 @@ import { Engine } from './components/Engine';
 import { Telemetry } from './components/Telemetry';
 import { Catalog } from './components/Catalog';
 import { PhotoGallery } from './components/Photogallery';
+import { Video } from './components/Video';
+import { Connection } from './components/Connection';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <Telemetry/>
         <Catalog/>
         <PhotoGallery/>
+        <Video/>
+        <Connection/>
+        <Footer/>
       </LayoutGeneral>
     </div>
   );
